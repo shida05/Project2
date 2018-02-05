@@ -1,0 +1,206 @@
+.container  {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;    
+	grid-template-rows: 100px 100px auto 100px;
+}
+
+.navigation  {
+	background: black;
+	grid-column: 1 / -1;
+}
+  .navigation1 {
+	float: left;
+	color: white;
+	margin-left: 12.25%;
+	padding-top: 2%; 
+   }	
+  .navigation2 {
+	float: left;
+	color: white;
+	margin-left: 12.25%;
+	padding-top: 2%; 
+   }	
+  .navigation3 {
+	float: left;
+	color: white;
+	margin-left: 12.25%;
+	padding-top: 2%; 
+   }	
+  .navigation4 {
+	float: left;
+	color: white;
+	margin-left: 12.25%;
+	padding-top: 2%; 
+   }	
+  .navigation5 {
+	float: left;
+	color: white;
+	margin-left: 12.25%;
+	padding-top: 2%; 
+   }	
+		
+
+.top       {
+	grid-column: 1 / -1;		
+}
+  .top_left  {
+	text-align: center;
+	float: left;
+	margin-top: 3%;	
+	margin-left: 2%;
+   }
+
+  .top_center  {
+	float: left;
+   }
+    #tc1    {color: red;
+		 font-family: "Andale Mono";
+  	     font-size: 2.25em;
+  	     text-align: center;
+  	     margin-top: 5%;
+  	     margin-left: 45%;     
+    	    }
+    #tc2  {   
+        font-size: 1.65em;
+        font-family: "Andale Mono";	
+        color: black;      
+        text-align: center;     
+        margin-top: -1%;
+        margin-bottom: -50%;
+        margin-left: 41%;
+
+        }  
+
+  .top_right  {
+	float: right;
+	margin-right: 8%;
+   }
+    #tr1   {
+        font-size: .95em;
+        font-family: "Andale Mono";	
+        color: black;      
+        margin-top: 50%;
+            }  
+    #tr2   {
+        font-family: "Andale Mono";	
+        font-size: .95em;	
+        color: black;      
+        text-align: left;
+        margin-right: 20%;            
+            }  		
+    #tr3   {
+		margin-right: 20%;
+        font-family: "Andale Mono";	
+        font-size: .95em;	
+        color: black;      
+        text-align: left;  
+           }  
+  
+
+
+.main   {
+	grid-column: 1 / -1;
+}
+	
+  .main-left     {
+	float: left;		
+    }
+    #ml10 {  
+     width: 100%;
+     font-size: 1.75em;
+     font-family: "Andale Mono";	
+     color: blue;      
+     text-align: center;     
+     margin-top: 56%;
+     margin-left: 20%;
+     text-decoration: none;
+     font-style: italic;
+        }  
+    #ml11 {  
+     font-size: 1.25em;
+     font-family: "Andale Mono";	
+     color: red;      
+     text-align: center;     
+     margin-top: -4%;
+     margin-left: 20%;
+     text-decoration: none;
+        }  
+    #ml12 {text-align: center;
+	     font-size: 1em;
+	     margin-top:1%;
+	     margin-left: 20%;
+	    } 
+
+  .main-center     {
+	float: left;		
+   }
+    #ml20 {  
+     width: 100%;
+     font-size: 1.75em;
+     font-family: "Andale Mono";	
+     color: blue;      
+     text-align: right;     
+     margin-top: 100%;
+     margin-bottom: -1%;
+     margin-left: 65%;
+     text-decoration: none;
+     font-style: italic;
+        }
+    #ml21  {
+     width: 100%;
+     font-size: 1.25em;
+     font-family: "Andale Mono";	
+     color: red;      
+     text-align: center;     
+     margin-top: -4%;
+     text-decoration: none;
+     margin-top: 5%;	
+     margin-left: 65%;
+       }   
+    #ml22 { width: 100%;
+		text-align: center;
+	     font-size: 1em;
+	     margin-top: 1%;
+         margin-left: 65%;
+	    } 
+
+  .main-right     {
+	float: left;		
+   }
+    #ml30 {  
+     width: 100%;
+     font-size: 1.75em;
+     font-family: "Andale Mono";	
+     color: blue;      
+     text-align: right;     
+     margin-top: 85%;
+     margin-left: 180%;
+     text-decoration: none;
+     font-style: italic;
+        }  
+    #ml31 {
+	  width: 100%;
+     font-size: 1.25em;
+     font-family: "Andale Mono";	
+     color: red;      
+     text-align: center;     
+     margin-top: -4%;
+     margin-left: 170%;
+     text-decoration: none;
+	    } 
+    #ml32 { width: 100%; 
+		text-align: center;
+	     font-size: 1em;
+	     margin-top: 1%;
+	     margin-left: 170%;
+	    } 
+
+
+
+.footer  {
+	background: black;
+	grid-column: 1 / -1;
+	color: white;
+
+}
+
